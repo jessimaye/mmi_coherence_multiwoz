@@ -1,4 +1,4 @@
-# MMI 24/25: LLMs as evaluator for coherence in task-oriented-dialogues 
+# MMI 24/25: Evaluating Coherence in Task-Oriented Dialogues Using Large Language Models – A Re-Annotation of the MultiWOZ dataset
 
 ## Model Runs
 This folder contains the jupyter-notebooks needed to connect with the llama-models for reannotating the MultiWOZ-dataset. "annotation_llama" uses the server from the University of Regensburg, "annotation_api" uses the API from the "Gesellschaft für wissenschaftliche Datenverarbeitung Göttingen" (GWDG). To run these notebooks you`ll also need "data.json" from the MultiWOZ-dataset 2.3 (source below). The dialogue-texts from this dataset are extracted in the notebook. After running the respective models, the results are saved as a list and txt.-file.
