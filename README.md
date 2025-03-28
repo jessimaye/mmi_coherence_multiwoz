@@ -9,4 +9,5 @@ Source for the MultwiWOZ-dataset 2.3 used in this project: https://github.com/le
 
 ## Data
 
-## Processing of the data
+## Data Processing
+This folder contains the "regex-extraction" jupyter notebook for extracting the desired data from the LLM-output with regular expressions. The results are saved as dataframes. 
