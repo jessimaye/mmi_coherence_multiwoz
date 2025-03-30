@@ -17,3 +17,4 @@ The zip-file "Annotation_Acts" contains the coherence annotation based on the ac
 
 ## Data Processing
 This folder contains the "regex-extraction" jupyter notebook for extracting the desired data from the LLM-output with regular expressions. The results are saved as dataframes. 
+It also contains the "connecting_dfs" jupyter notebook which was used for combining the different states of data generated with each iteration until the final dataframe encompassed every entry of the original MulitWOZ data set.
