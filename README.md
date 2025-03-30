@@ -13,5 +13,7 @@ Source for the MultwiWOZ-dataset 2.3 used in this project: https://github.com/le
 
 The zip-file "Annotation_Coherence" containts the newly annotated MultiWOZ dialogues, including the id of the dialogue, thex text, a coherence score, an explanation for the score and the assistance functions, performed by the wizard. The annotation is available as a csv-, txt- and json-file.
 
+The zip-file "Annotation_Acts" contains the coherence annotation based on the acts of speeches, icluding the id of the dialogue, the acts of speeches and a value for the coherence (0 for incoherent, 1 for coherent). The annotation is available as a csv-file.
+
 ## Data Processing
 This folder contains the "regex-extraction" jupyter notebook for extracting the desired data from the LLM-output with regular expressions. The results are saved as dataframes. 
